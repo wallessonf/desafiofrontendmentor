@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <style>
+      body {
+        font-family: "Outfit", sans-serif;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        min-height: 100vh;
+        background: #D5E1EF;
+      }
+      .container {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 10px;
+        text-align: center;
+        width: 20%;
+      }
+
+      .container img {
+        border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ section{
+        margin-bottom: 1.5em;
+      }
+
+      
+      h1{
+        color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0px;
+      }
+
+      .paragrafo{
+        color: hsl(216, 15%, 48%);
+        font-weight: 400; 
+  line-height: 140%;  
+  letter-spacing: 0.2px;
+          margin: 0 1em 0 1em;
+
+      }
+
+      @media (max-width: 375px) {
+         .container {
+         padding: 1rem;
+          font-size: 14px;
+          width: 70%;
+         }
+
+
+
+  }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./images/image-qr-code.png" alt="QR code" />
+      <section class="containerQR">
+        <h1 class="titulo">
+          Improve your front-end skills by building projects
+        </h1>
+        <p class="paragrafo">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </section>
+      </div>
+    </div>
+  </body>
+</html>
