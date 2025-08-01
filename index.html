@@ -30,7 +30,7 @@
         min-height: 100vh;
         background: #D5E1EF;
       }
-      .container {
+      main.container {
         background-color: white;
         padding: 1rem;
         border-radius: 20px;
@@ -38,49 +38,44 @@
         width: 20%;
       }
 
-      .container img {
+      main.container img {
         border-radius: 20px;
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
 
- section{
+      section {
         margin-bottom: 1.5em;
       }
 
-      
-      h1{
+      h1 {
         color: hsl(218, 44%, 22%);
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 120%;
-  letter-spacing: 0px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 120%;
+        letter-spacing: 0px;
       }
 
-      .paragrafo{
+      .paragrafo {
         color: hsl(216, 15%, 48%);
-        font-weight: 400; 
-  line-height: 140%;  
-  letter-spacing: 0.2px;
-          margin: 0 1em 0 1em;
-
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+        margin: 0 1em 0 1em;
       }
 
       @media (max-width: 375px) {
-         .container {
-         padding: 1rem;
+        main.container {
+          padding: 1rem;
           font-size: 14px;
           width: 70%;
-         }
-
-
-
-  }
+        }
+      }
     </style>
   </head>
   <body>
-    <div class="container">
+    <main class="container">
       <img src="./images/image-qr-code.png" alt="QR code" />
       <section class="containerQR">
         <h1 class="titulo">
@@ -91,7 +86,6 @@
           to the next level
         </p>
       </section>
-      </div>
-    </div>
+    </main>
   </body>
 </html>
