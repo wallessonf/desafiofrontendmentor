@@ -1,46 +1,51 @@
-# Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+# Frontend Mentor - Solução do Componente de QR Code
 
-## Table of contents
+Esta é uma solução para o [desafio de componente de QR Code no Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação construindo projetos realistas.
 
-- [Overview](#overview)
+## 📋 Índice
+
+- [Visão Geral](#visão-geral)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My Process](#my-process)
-  - [Built With](#built-with)
-  - [What I Learned](#what-i-learned)
-  - [Continued Development](#continued-development)
-  - [Useful Resources](#useful-resources)
-- [Author](#author)
+- [Meu Processo](#meu-processo)
+  - [Construído com](#construído-com)
+  - [O que aprendi](#o-que-aprendi)
+  - [Desenvolvimento Futuro](#desenvolvimento-futuro)
+  - [Recursos Úteis](#recursos-úteis)
+- [Autor](#autor)
 
-## Overview
+## 🧩 Visão Geral
 
-### Screenshot
+Um componente simples e responsivo de QR Code construído com HTML e CSS, seguindo princípios mobile-first e padrões modernos da web.
 
-![Screenshot](./screenshot.jpg)
+### 📸 Screenshot
 
-### Links
+![Screenshot do projeto](./screenshot.jpg)
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+### 🔗 Links
 
-## My Process
+- **URL da solução (GitHub)**: [https://github.com/wallessonf/desafiofrontendmentor](https://github.com/wallessonf/desafiofrontendmentor)
+- **Site ao vivo (Vercel)**: [https://desafiofrontendmentor.vercel.app/](https://desafiofrontendmentor.vercel.app/)
 
-### Built With
+## 🛠️ Meu Processo
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
+### ✅ Construído com
 
-### What I Learned
+- HTML5 semântico
+- Propriedades personalizadas de CSS
+- Flexbox para layout
+- Fluxo de trabalho mobile-first
+- Google Fonts (Outfit)
 
-I reinforced my understanding of:
+### 📚 O que aprendi
+
+Aperfeiçoei minha compreensão sobre estrutura semântica e design responsivo. Também pratiquei:
 
 ```html
-<h1>Improve your front-end skills by building projects</h1>
+<h1>Melhore suas habilidades de front-end construindo projetos</h1>
 ```
+
 ```css
 .container {
   background-color: white;
@@ -50,28 +55,29 @@ I reinforced my understanding of:
   width: 20%;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
+  console.log('🎉');
 }
 ```
 
-### Continued Development
+### 🔄 Desenvolvimento Futuro
 
-In future projects, I want to:
+Nos próximos projetos, pretendo:
 
-- Improve accessibility with ARIA tags.
-- Experiment more with CSS Grid layouts.
-- Practice BEM methodology for class naming.
+- Melhorar a acessibilidade com uso de atributos ARIA
+- Praticar com CSS Grid
+- Explorar a metodologia BEM para organização do CSS
 
-### Useful Resources
+### 🔗 Recursos Úteis
 
-- [Frontend Mentor Resources](https://www.frontendmentor.io/resources) – Great tools and articles for UI building.
-- [MDN Web Docs](https://developer.mozilla.org/) – My go-to reference for everything HTML/CSS.
-- [CSS Tricks: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) – Helped reinforce my understanding of Flexbox.
+- [Frontend Mentor Resources](https://www.frontendmentor.io/resources) – Ferramentas e artigos úteis para construir interfaces.
+- [MDN Web Docs](https://developer.mozilla.org/pt-BR/) – Referência completa para HTML/CSS/JS.
+- [CSS Tricks - Guia completo de Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) – Ajudou a reforçar o entendimento sobre layouts com Flexbox.
 
-## Author
+## 👨‍💻 Autor
 
-- **GitHub** - [@wallessonf](https://github.com/wallessonf)
-- **Frontend Mentor** - [@wallessonf](https://www.frontendmentor.io/profile/wallessonf)
-- **Name** - Wallesson Fernando
+- GitHub: [@wallessonf](https://github.com/wallessonf)
+- Frontend Mentor: [@wallessonf](https://www.frontendmentor.io/profile/wallessonf)
+- Nome: Wallesson Fernando
